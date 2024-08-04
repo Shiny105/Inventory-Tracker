@@ -187,10 +187,9 @@ const Home = () => {
       <Image
         src="/pantry.jpg"
         alt="Chandni Patel"
-        layout="fill"
-        objectFit="cover"
+        fill
+        style={{ objectFit: 'cover', zIndex: -1 }}
         quality={100}
-        style={{ zIndex: -1}}
       />
       
       <Container maxWidth="lg" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh',
