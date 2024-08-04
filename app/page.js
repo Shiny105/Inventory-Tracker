@@ -20,8 +20,8 @@ const PriceUpdateDialog = ({ open, onClose, onConfirm, itemName, oldPrice, newPr
       <Box sx={{ bgcolor: '#E6E6FA', p: 3 }}>
         <Typography variant="h6" sx={{ mb: 2 }}>Price Update Confirmation</Typography>
         <Typography>
-          An item named '{itemName}' already exists with a price of ${oldPrice}.
-          Do you want to update the price to ${newPrice}?
+        An item named &quot;{itemName}&quot; already exists with a price of ${oldPrice}.
+        Do you want to update the price to ${newPrice}?
         </Typography>
         <Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: 2 }}>
           <Button onClick={onClose} sx={{ mr: 1 }}>Cancel</Button>
